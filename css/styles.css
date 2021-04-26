@@ -1,4 +1,4 @@
-/* #FFFFFF color text hero, adress */
+/* #FFFFFF color text hero, address */
 /* #212121 color text nav, heading h2,h3, button */
 /* #2196F3 accent color*/
 /* #757575 color tel, text*/
@@ -12,6 +12,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
+/* Header */
 .logo-1 {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -28,11 +29,9 @@ body {
   line-height: 1.2;
   color: #000000;
 }
-
 .list {
   list-style: none;
 }
-
 .link-external {
   font-weight: 500;
   font-size: 14px;
@@ -43,19 +42,17 @@ body {
 .link-external:focus {
   color: #2196f3;
 }
-
 .link-internal {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: #757575;
 }
-
 .link-internal:hover,
 .link-internal:focus {
   color: #2196f3;
 }
-
+/* Hero */
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -63,7 +60,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
 .button {
   background-color: #2196f3;
   font-weight: 700;
@@ -71,45 +67,44 @@ body {
   line-height: 1.9;
   color: #ffffff;
 }
-
+/* Features of work */
 .feature {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   color: #212121;
 }
-
 .description {
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
 }
-
+/* Our services */
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   color: #212121;
 }
-
+/* Team */
 .full-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #212121;
 }
-
 .position {
   font-size: 16px;
   line-height: 1.2;
   color: #757575;
 }
-
+/* Footer */
 .address {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
 }
+/* Filter */
 button {
   font-family: inherit;
   cursor: pointer;
@@ -119,24 +114,21 @@ button {
   line-height: 1.6;
   color: #212121;
 }
-
 button:hover,
 button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
-
+/* Our projects */
 .project-img {
   background-color: #eeeeee;
 }
-
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: #212121;
 }
-
 .project-type {
   font-size: 16px;
   line-height: 1.9;
