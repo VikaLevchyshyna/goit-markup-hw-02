@@ -9,6 +9,8 @@ body {
   background-color: #e5e5e5;
   color: #212121;
   font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 .logo-1 {
   font-family: Raleway, sans-serif;
@@ -29,26 +31,20 @@ body {
 
 .list {
   list-style: none;
-  color: #212121;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
 }
 
-.link {
-  font-style: normal;
+.link-external {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: #212121;
 }
-.link:hover,
-.link:focus {
+.link-external:hover,
+.link-external:focus {
   color: #2196f3;
 }
 
 .link-internal {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -61,7 +57,6 @@ body {
 }
 
 .hero {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -71,7 +66,6 @@ body {
 
 .button {
   background-color: #2196f3;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -79,7 +73,6 @@ body {
 }
 
 .feature {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -87,15 +80,12 @@ body {
 }
 
 .description {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
 }
 
 .team {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -103,7 +93,6 @@ body {
 }
 
 .full-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -111,20 +100,46 @@ body {
 }
 
 .position {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   color: #757575;
 }
 
 .address {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
 }
 button {
   font-family: inherit;
+  cursor: pointer;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #212121;
+}
+
+button:hover,
+button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.project-img {
+  background-color: #eeeeee;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.9;
+  color:#757575;
+}
 }
