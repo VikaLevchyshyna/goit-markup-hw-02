@@ -7,15 +7,15 @@
 /* #2F303A footer background color */
 body {
   background-color: #ffffff;
-  color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.7;
+  color: #212121;
 }
 /* Header */
 .logo-1 {
   text-decoration: none;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -38,7 +38,9 @@ body {
   color: #212121;
 }
 .link-external:hover,
-.link-external:focus {
+.link-external:focus,
+.link-internal:hover,
+.link-internal:focus {
   color: #2196f3;
 }
 .link-internal {
@@ -48,10 +50,7 @@ body {
   line-height: 1.2;
   color: #757575;
 }
-.link-internal:hover,
-.link-internal:focus {
-  color: #2196f3;
-}
+
 /* Hero */
 .hero {
   background-color: #2f303a;
