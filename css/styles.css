@@ -12,11 +12,12 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-title-color);
+  background-color: #ffffff;
 }
 .section-title {
   font-weight: 700;
@@ -35,12 +36,10 @@ body {
 }
 /* Header */
 .logo-1 {
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo-2 {
@@ -73,6 +72,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
@@ -100,12 +100,10 @@ body {
 .feature-title {
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .feature-description {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* Team */
@@ -116,12 +114,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .position {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* Footer */
@@ -136,7 +132,6 @@ body {
 /* Our projects */
 .button-filter {
   font-family: inherit;
-  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -147,6 +142,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   color: var(--primary-title-color);
+  background-color: #f5f4fa;
 }
 .button-filter:hover,
 .button-filter:focus {
@@ -169,6 +165,5 @@ body {
 .project-type {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
